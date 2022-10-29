@@ -390,7 +390,7 @@ function displayAreas(areaData) {
                         class="slideUp bg-light bg-opacity-75 w-100 h-100  position-absolute top-0 start-0 d-flex flex-column justify-content-center align-items-center textShadow">
                         <span class="fs-4 fw-bold mt-1 mb-0">${areaData.meals[i].strArea}</span>
                     </div>
-                    <img class="w-100" src="../images/${areaData.meals[i].strArea}.jpg" alt="">
+                    <img class="w-100" src="images/${areaData.meals[i].strArea}.jpg" alt="">
                 </div>
             </div>
     `;
@@ -493,7 +493,7 @@ function displayIngredients(ingredientsData) {
                         <span class="fs-4 fw-bold mt-1 mb-0 text-center">${ingredientsData.meals[i].strIngredient}</span>
                         <p class="fs-6 fw-semibold px-2 editText text-center">${ingredientsData.meals[i].strDescription}</p>
                     </div>
-                    <img class="w-100" src="../images/ingredient/${ingredientsData.meals[i].strIngredient}.jpg" alt="">
+                    <img class="w-100" src="images/ingredient/${ingredientsData.meals[i].strIngredient}.jpg" alt="">
                 </div>
             </div>
     `;
